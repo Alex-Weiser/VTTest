@@ -13,6 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Bool_keys:
   - pbGenerateUV2PerObject
+  - pb_SmoothingGroupEditor::m_ShowPreview
+  - pb_SmoothingGroupEditor::m_DrawNormals
+  - pb_SmoothingGroupEditor::m_PreviewDither
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
@@ -21,14 +24,16 @@ MonoBehaviour:
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
+  - pb_SmoothingGroupEditor::m_PreviewOpacity
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 00
+  m_Bool_values: 00000100
   m_Int_values: 00000000000000000200000000000000
   m_Float_values:
   - 0
   - 0
+  - 0.5
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
