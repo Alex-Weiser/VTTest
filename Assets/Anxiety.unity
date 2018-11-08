@@ -575,6 +575,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 198654424238307332, guid: 453ff08f1caf6f946ac4a80534eb4248,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 453ff08f1caf6f946ac4a80534eb4248, type: 2}
   m_IsPrefabAsset: 0
