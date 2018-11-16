@@ -20,6 +20,7 @@ public class TeleportToObject : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 			Debug.Log("Player entered trigger");
 			other.gameObject.transform.position = teleportDestinationObject.transform.position;
-	}
+            other.gameObject.transform.rotation = teleportDestinationObject.transform.rotation; 
+    }
 
 }

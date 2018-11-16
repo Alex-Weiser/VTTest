@@ -6174,7 +6174,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4134741070844678, guid: 4fa89a572943e7046abf0cca43450333, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.48
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 4134741070844678, guid: 4fa89a572943e7046abf0cca43450333, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6204,6 +6204,20 @@ Prefab:
         type: 2}
       propertyPath: Acceleration
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114489051112349742, guid: 4fa89a572943e7046abf0cca43450333,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458253817487920, guid: 4fa89a572943e7046abf0cca43450333, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143921597098579370, guid: 4fa89a572943e7046abf0cca43450333,
+        type: 2}
+      propertyPath: m_Height
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa89a572943e7046abf0cca43450333, type: 2}
@@ -6528,7 +6542,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-42446
+  m_Name: pb_Mesh-34194
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -6683,7 +6697,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26712
+  m_Name: pb_Mesh21274
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8634,7 +8648,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27030
+  m_Name: pb_Mesh21600
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8789,7 +8803,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59888
+  m_Name: pb_Mesh-34256
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9483,9 +9497,9 @@ GameObject:
   m_Component:
   - component: {fileID: 259522357}
   - component: {fileID: 259522358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (10)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9545,7 +9559,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60156
+  m_Name: pb_Mesh-34614
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -9796,6 +9810,14 @@ Prefab:
     - target: {fileID: 1036101479213928, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
@@ -13591,9 +13613,9 @@ GameObject:
   - component: {fileID: 264090722}
   - component: {fileID: 264090721}
   - component: {fileID: 264090720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door Backlight
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13672,7 +13694,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60212
+  m_Name: pb_Mesh-34670
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14217,7 +14239,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27064
+  m_Name: pb_Mesh21640
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14376,9 +14398,9 @@ GameObject:
   m_Component:
   - component: {fileID: 299048477}
   - component: {fileID: 299048478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (3)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14520,7 +14542,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60218
+  m_Name: pb_Mesh-34676
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14968,9 +14990,9 @@ GameObject:
   m_Component:
   - component: {fileID: 429521899}
   - component: {fileID: 429521900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (4)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16103,7 +16125,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-42442
+  m_Name: pb_Mesh-34190
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16349,7 +16371,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60150
+  m_Name: pb_Mesh-34608
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16895,7 +16917,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26516
+  m_Name: pb_Mesh21056
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17054,9 +17076,9 @@ GameObject:
   m_Component:
   - component: {fileID: 495476111}
   - component: {fileID: 495476112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (9)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17122,9 +17144,9 @@ GameObject:
   - component: {fileID: 499577927}
   - component: {fileID: 499577926}
   - component: {fileID: 499577925}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door Backlight
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20124,7 +20146,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26652
+  m_Name: pb_Mesh21206
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -20284,9 +20306,9 @@ GameObject:
   - component: {fileID: 572239886}
   - component: {fileID: 572239888}
   - component: {fileID: 572239887}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Beginning Light
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20385,9 +20407,9 @@ GameObject:
   m_Component:
   - component: {fileID: 594475452}
   - component: {fileID: 594475453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (7)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20453,9 +20475,9 @@ GameObject:
   - component: {fileID: 632829869}
   - component: {fileID: 632829868}
   - component: {fileID: 632829867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door Backlight
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20550,13 +20572,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 637854836}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.38850823, y: -0.1612432, z: 0.34776598, w: 0.8379265}
   m_LocalPosition: {x: -1.2529998, y: 0.499, z: -0.7699999}
   m_LocalScale: {x: 0.33462, y: 0.26375183, z: 0.33462}
   m_Children: []
   m_Father: {fileID: 451685020}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 49.75, y: 0, z: 45.08}
 --- !u!1 &661542787
 GameObject:
   m_ObjectHideFlags: 0
@@ -20566,9 +20588,9 @@ GameObject:
   m_Component:
   - component: {fileID: 661542788}
   - component: {fileID: 661542789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (1)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20596,7 +20618,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.43
+  m_Intensity: 2.95
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -20632,9 +20654,9 @@ GameObject:
   m_Component:
   - component: {fileID: 689066519}
   - component: {fileID: 689066520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (11)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20728,7 +20750,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59944
+  m_Name: pb_Mesh-34348
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -20984,6 +21006,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
@@ -20997,7 +21027,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh23632
+  m_Name: pb_Mesh21700
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21253,6 +21283,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
@@ -21271,7 +21309,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26602
+  m_Name: pb_Mesh21152
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21430,9 +21468,9 @@ GameObject:
   m_Component:
   - component: {fileID: 817386634}
   - component: {fileID: 817386635}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (8)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21631,7 +21669,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59882
+  m_Name: pb_Mesh-34250
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21790,9 +21828,9 @@ GameObject:
   m_Component:
   - component: {fileID: 892777737}
   - component: {fileID: 892777738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (13)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21950,7 +21988,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26760
+  m_Name: pb_Mesh21322
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22109,9 +22147,9 @@ GameObject:
   m_Component:
   - component: {fileID: 905669837}
   - component: {fileID: 905669836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22171,7 +22209,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26994
+  m_Name: pb_Mesh21560
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22330,9 +22368,9 @@ GameObject:
   m_Component:
   - component: {fileID: 968566920}
   - component: {fileID: 968566921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (5)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22392,7 +22430,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59884
+  m_Name: pb_Mesh-34252
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22675,7 +22713,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60094
+  m_Name: pb_Mesh-34552
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22990,7 +23028,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60152
+  m_Name: pb_Mesh-34610
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23177,9 +23215,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1098519915}
   - component: {fileID: 1098519916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (13)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23239,7 +23277,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26546
+  m_Name: pb_Mesh21088
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23394,7 +23432,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60090
+  m_Name: pb_Mesh-34548
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23549,7 +23587,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60088
+  m_Name: pb_Mesh-34546
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23704,7 +23742,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27010
+  m_Name: pb_Mesh21576
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -24018,9 +24056,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1250667690}
   - component: {fileID: 1250667691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (12)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24086,9 +24124,9 @@ GameObject:
   - component: {fileID: 1294669794}
   - component: {fileID: 1294669793}
   - component: {fileID: 1294669792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door Backlight
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24256,6 +24294,14 @@ Prefab:
       propertyPath: teleportDestinationObject
       value: 
       objectReference: {fileID: 1012669333}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
@@ -24273,9 +24319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1359188466}
   - component: {fileID: 1359188467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (12)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24428,6 +24474,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
@@ -24441,7 +24495,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26502
+  m_Name: pb_Mesh21042
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -24709,7 +24763,7 @@ Prefab:
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.8557029
+      value: -8.77
       objectReference: {fileID: 0}
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
@@ -24719,12 +24773,12 @@ Prefab:
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
@@ -24739,7 +24793,7 @@ Prefab:
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 22.590872
+      value: 17.92
       objectReference: {fileID: 0}
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
@@ -24808,7 +24862,7 @@ Prefab:
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 224551206010601386, guid: 418056b2ed69dad49bb7ca4005067387,
         type: 2}
@@ -24843,7 +24897,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-42440
+  m_Name: pb_Mesh-34188
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25002,9 +25056,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1470340351}
   - component: {fileID: 1470340352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (11)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25064,7 +25118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59950
+  m_Name: pb_Mesh-34354
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25223,9 +25277,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1541031233}
   - component: {fileID: 1541031234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (9)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25308,12 +25362,112 @@ Transform:
   m_Father: {fileID: 1816586877}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1544997201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1442716558592158, guid: 4fa89a572943e7046abf0cca43450333,
+    type: 2}
+  m_PrefabInternal: {fileID: 120180205}
+--- !u!82 &1544997207
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1544997201}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7ae2356da44e6884ca77d3f80cfda02a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!43 &1562106733
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26692
+  m_Name: pb_Mesh21250
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25627,9 +25781,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1600329388}
   - component: {fileID: 1600329389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (6)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25689,7 +25843,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26560
+  m_Name: pb_Mesh21104
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -30213,6 +30367,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.20080324
       objectReference: {fileID: 0}
+    - target: {fileID: 114976627626987254, guid: 418056b2ed69dad49bb7ca4005067387,
+        type: 2}
+      propertyPath: Cam
+      value: 
+      objectReference: {fileID: 2009015741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 418056b2ed69dad49bb7ca4005067387, type: 2}
   m_IsPrefabAsset: 0
@@ -30339,9 +30498,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1678022005}
   - component: {fileID: 1678022006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (2)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34176,7 +34335,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26626
+  m_Name: pb_Mesh21180
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34352,13 +34511,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790848943}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.99973756, z: -0, w: -0.022908948}
   m_LocalPosition: {x: 3.2, y: 1.173258, z: -3.3}
   m_LocalScale: {x: 0.52944994, y: 0.52944994, z: 0.52944994}
   m_Children: []
   m_Father: {fileID: 1816586877}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 182.62498, z: 0}
 --- !u!1 &1804292897
 GameObject:
   m_ObjectHideFlags: 0
@@ -34369,9 +34528,9 @@ GameObject:
   - component: {fileID: 1804292898}
   - component: {fileID: 1804292900}
   - component: {fileID: 1804292899}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (15)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34482,9 +34641,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1810939297}
   - component: {fileID: 1810939298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (10)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36425,9 +36584,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1878961469}
   - component: {fileID: 1878961470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light (4)
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36575,6 +36734,14 @@ Prefab:
     - target: {fileID: 4377802848399808, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 370.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
@@ -39862,15 +40029,48 @@ Prefab:
       propertyPath: _quads.Array.data[79]._edges.Array.data[2].y
       value: 239
       objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446332534685924, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446332534685924, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446332534685924, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446332534685924, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446332534685924, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2009015741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1458253817487920, guid: 4fa89a572943e7046abf0cca43450333,
+    type: 2}
+  m_PrefabInternal: {fileID: 120180205}
 --- !u!43 &2017159787
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-59946
+  m_Name: pb_Mesh-34350
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -45782,7 +45982,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh27108
+  m_Name: pb_Mesh21686
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -46035,6 +46235,14 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0.006
       objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023470099976202, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
+      propertyPath: m_TagString
+      value: Light
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f71dad654a444459a6b22f88c20dfb, type: 2}
   m_IsPrefabAsset: 0
@@ -46048,7 +46256,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-60214
+  m_Name: pb_Mesh-34672
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -46203,7 +46411,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh26530
+  m_Name: pb_Mesh21070
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

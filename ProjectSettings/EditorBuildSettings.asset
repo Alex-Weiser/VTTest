@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Anxiety.unity
-    guid: 3d284cf9c7a3b7c45a576d6cde852358
-  - enabled: 0
-    path: Assets/HubworldTest.unity
+    path: Assets/Scenes/HubworldTest.unity
     guid: 87338a47eaf56254f9eab6777f9a1bbe
-  - enabled: 0
-    path: Assets/VRtest.unity
+  - enabled: 1
+    path: Assets/Scenes/VRtest.unity
     guid: 4225d5a427a8b3340a0775f741653de7
+  - enabled: 1
+    path: Assets/Scenes/Anxiety Realm/Anxiety Realm - Rooms.unity
+    guid: 7863d15b91a76964bb8b13bb915df57d
+  - enabled: 1
+    path: Assets/Scenes/Anxiety.unity
+    guid: 3d284cf9c7a3b7c45a576d6cde852358
   m_configObjects: {}
