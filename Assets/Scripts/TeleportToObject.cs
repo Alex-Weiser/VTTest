@@ -7,20 +7,14 @@ public class TeleportToObject : MonoBehaviour {
 	[Tooltip("Teleport to the location of this object")]
 	public GameObject teleportDestinationObject;
 
-	// Use this for initialization
-	void Start () {
-			Debug.Log("Started game.");
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
-
+    // Transport the player somewhere else
 	void OnTriggerEnter(Collider other) {
-			Debug.Log("Player entered trigger");
-			other.gameObject.transform.position = teleportDestinationObject.transform.position;
-            other.gameObject.transform.rotation = teleportDestinationObject.transform.rotation; 
+        if(other.gameObject.tag == "Player")
+        {
+            Debug.Log("Player entered teleportation trigger");
+            other.gameObject.transform.position = teleportDestinationObject.transform.position;
+            other.gameObject.transform.rotation = teleportDestinationObject.transform.rotation;
+        }
     }
 
 }
