@@ -28578,7 +28578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 721, y: -70}
+  m_AnchoredPosition: {x: 969, y: -70}
   m_SizeDelta: {x: 142, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331153477
@@ -28844,9 +28844,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1371516411}
   - component: {fileID: 1371516412}
+  - component: {fileID: 1371516413}
   m_Layer: 0
   m_Name: '[VRSimulator_CameraRig]'
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28918,6 +28919,18 @@ MonoBehaviour:
   startMenuAlias: 102
   touchModifier: 116
   hairTouchModifier: 104
+--- !u!65 &1371516413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371516410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.62, y: 1.63, z: 0.59}
+  m_Center: {x: 0, y: 1.26, z: 0}
 --- !u!1 &1380983025
 GameObject:
   m_ObjectHideFlags: 0
