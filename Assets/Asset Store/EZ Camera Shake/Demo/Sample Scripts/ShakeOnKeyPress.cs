@@ -3,7 +3,7 @@ using EZCameraShake;
 
 public class ShakeOnKeyPress : MonoBehaviour
 {
-    public float Magnitude = 2f;
+    public float Magnitude = 10f;
     public float Roughness = 10f;
     public float FadeOutTime = 5f;
 

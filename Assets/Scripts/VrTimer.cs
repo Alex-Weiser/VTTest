@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+
+
 
 public class VrTimer : MonoBehaviour {
     public Text timerText;
@@ -10,12 +12,15 @@ public class VrTimer : MonoBehaviour {
     public int textMaxSize;
     public float fontTimer;
     float fontInterval = 300;
-    public GameObject[] Lights; 
+    public GameObject[] Lights;
+
+
+
     // Use this for initialization
     void Start () {
         timerVariable = 60;
         Lights = GameObject.FindGameObjectsWithTag("Light");
-
+      
     }
 
     // Update is called once per frame
@@ -51,6 +56,7 @@ public class VrTimer : MonoBehaviour {
             }
             if (timerVariable < 10)
             {
+                
                 fontInterval = 3;
             }
 
