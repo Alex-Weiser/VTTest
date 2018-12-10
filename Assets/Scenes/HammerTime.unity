@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 64d5b5437a8885940ab7a3d0f144d056, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3560,6 +3560,7 @@ GameObject:
   - component: {fileID: 875611204}
   - component: {fileID: 875611203}
   - component: {fileID: 875611202}
+  - component: {fileID: 875611205}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3627,6 +3628,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &875611205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875611201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: a2e4159b1f40442479b1c9c3260708d6, type: 2}
 --- !u!1 &876864296
 GameObject:
   m_ObjectHideFlags: 0
@@ -5841,6 +5854,7 @@ GameObject:
   - component: {fileID: 1349341898}
   - component: {fileID: 1349341900}
   - component: {fileID: 1349341899}
+  - component: {fileID: 1349341901}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -5908,6 +5922,18 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1349341897}
   m_Enabled: 1
+--- !u!114 &1349341901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349341897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: a2e4159b1f40442479b1c9c3260708d6, type: 2}
 --- !u!1 &1351270625
 GameObject:
   m_ObjectHideFlags: 0
@@ -5964,13 +5990,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1370654385}
-  m_LocalRotation: {x: -0.69529223, y: 0.06283212, z: -0.06047693, w: 0.7134168}
+  m_LocalRotation: {x: -0.8205673, y: 0.009699254, z: -0.0057409103, w: 0.5714387}
   m_LocalPosition: {x: 0, y: -0.1, z: 3.28}
   m_LocalScale: {x: 0.20728065, y: 2.1471817, z: 0.20961563}
   m_Children: []
   m_Father: {fileID: 2035032192}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -79.888, y: 81.734, z: -81.54201}
+  m_LocalEulerAnglesHint: {x: -69.66801, y: 176.61601, z: -176.29102}
 --- !u!1 &1373461586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6129,7 +6155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 933, y: -70}
+  m_AnchoredPosition: {x: 786, y: -70}
   m_SizeDelta: {x: 142, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442774213
