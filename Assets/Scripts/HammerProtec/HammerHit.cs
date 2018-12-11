@@ -14,7 +14,6 @@ public class HammerHit : MonoBehaviour {
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("HIT DAT BOY");
             camShakeInstance = CameraShaker.Instance.StartShake(Magnitude, Roughness, 0);
             Invoke("STOPSHAKING", .5f);
         }

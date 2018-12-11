@@ -13,11 +13,13 @@ public class HammerSmash : MonoBehaviour {
 	void Update () {
 		
 	}
+
     public void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.tag == "Hammer") {
-            Instantiate(blood, transform.parent.position, Quaternion.identity);
+            Debug.Log("ENEMY DESTROYED!");
+            Instantiate(blood, transform.position, Quaternion.identity);
             Destroy(gameObject);
-}
+        }
     }
 }
