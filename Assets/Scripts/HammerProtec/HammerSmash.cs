@@ -16,6 +16,8 @@ public class HammerSmash : MonoBehaviour {
 
     public void OnCollisionEnter(Collision other)
     {
+        Debug.Log("Scorpion hit by something");
+
         if(other.gameObject.tag == "Hammer") {
             Debug.Log("ENEMY DESTROYED!");
             Instantiate(blood, transform.position, Quaternion.identity);
