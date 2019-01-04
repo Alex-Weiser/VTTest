@@ -9,6 +9,10 @@ TagManager:
   - Hammer
   - Enemy
   - Hat
+  - Dog
+  - Yard
+  - YardWall
+  - Bone
   layers:
   - Default
   - TransparentFX
