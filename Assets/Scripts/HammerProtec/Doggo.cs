@@ -7,7 +7,8 @@ public class Doggo : MonoBehaviour {
     public GameObject bonePoint; 
     bool hasHat = false;
     public bool hasBone = false;
-	
+
+    public bool fetchCD = false; 
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Hat" && hasHat == false)
@@ -18,13 +19,20 @@ public class Doggo : MonoBehaviour {
             other.gameObject.transform.parent = hatPoint.transform;
             hasHat = true; 
         }
-        if (other.gameObject.tag == "Bone" && hasBone == false)
+        if (other.gameObject.tag == "Bone" && hasBone == false && fetchCD == false)
         {
             other.gameObject.transform.position = bonePoint.transform.position;
             other.gameObject.transform.rotation = bonePoint.transform.rotation;
             other.gameObject.transform.parent = bonePoint.transform;
-            hasBone = true; 
+            hasBone = true;
+            fetchCD = true;
+            Invoke("CDreset", 3f);
         }
         
+        
+    }
+    public void CDreset()
+    {
+        fetchCD = false; 
     }
 }

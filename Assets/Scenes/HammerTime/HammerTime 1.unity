@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 4343517}
   - component: {fileID: 4343516}
   - component: {fileID: 4343515}
+  - component: {fileID: 4343519}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Player
@@ -257,9 +258,9 @@ BoxCollider:
   m_GameObject: {fileID: 4343514}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &4343516
 MonoBehaviour:
@@ -337,6 +338,18 @@ Transform:
   m_Father: {fileID: 1534497428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4343519
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4343514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0.22, z: 0}
 --- !u!1 &22068856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,7 +1160,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162364504}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21b4bc319f4966f4faedb4f429f7c9c9, type: 3}
   m_Name: 
@@ -2159,15 +2172,15 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 3908411b030b66941bf7cd52cfe9cd0a, type: 2}
     - target: {fileID: 400000, guid: 1b6d9b574674d5e49a558a79015130eb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.09971032
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1b6d9b574674d5e49a558a79015130eb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.09971032
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1b6d9b574674d5e49a558a79015130eb, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.18007
+      value: 0.17954837
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1b6d9b574674d5e49a558a79015130eb, type: 3}
       propertyPath: m_TagString
@@ -6822,9 +6835,9 @@ MonoBehaviour:
   leftSnapHandle: {fileID: 1373149649}
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 3
-  onGrabCollisionDelay: 1
+  onGrabCollisionDelay: 100000
   destroyImmediatelyOnThrow: 1
-  breakForce: 3000
+  breakForce: 1e+16
 --- !u!64 &1373149652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6867,6 +6880,8 @@ MonoBehaviour:
   dogScript: {fileID: 0}
   Player: {fileID: 0}
   boneRB: {fileID: 0}
+  afterBoneDrop: 0
+  moveBack: {fileID: 1412232566}
 --- !u!65 &1373149655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6877,8 +6892,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.2076445, y: 3.8868737, z: 4.566417}
-  m_Center: {x: 0.2628541, y: 1.4434364, z: 0.18223341}
+  m_Size: {x: 2.8870003, y: 2.2958674, z: 4.6399803}
+  m_Center: {x: 0.056301128, y: 0.90911865, z: 0.273991}
 --- !u!1 &1382951802
 GameObject:
   m_ObjectHideFlags: 0
@@ -7002,6 +7017,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1412232566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412232567}
+  m_Layer: 0
+  m_Name: Moveback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412232567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412232566}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1923050615}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1422402969
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,7 +7141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 784, y: -70}
+  m_AnchoredPosition: {x: 647, y: -70}
   m_SizeDelta: {x: 142, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442774213
@@ -9155,7 +9198,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842990406}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.019000053, y: 0.738, z: 0.467}
+  m_LocalPosition: {x: 0.024, y: 0.738, z: 0.439}
   m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1923050615}
@@ -15470,6 +15513,7 @@ Transform:
   - {fileID: 1201079083}
   - {fileID: 1888946648}
   - {fileID: 1842990407}
+  - {fileID: 1412232567}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15487,6 +15531,7 @@ MonoBehaviour:
   hatPoint: {fileID: 1201079082}
   bonePoint: {fileID: 1842990406}
   hasBone: 0
+  fetchCD: 0
 --- !u!195 &1923050617
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15516,7 +15561,7 @@ BoxCollider:
   m_GameObject: {fileID: 1923050614}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.72475266, y: 0.36956835, z: 0.59033275}
   m_Center: {x: 0.028533578, y: 0.31521583, z: -0.049779177}
